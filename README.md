@@ -51,11 +51,12 @@ Our method is based on range images. To use range projection with fast c++ libra
 For a quick test of all the steps below, one could download a toy dataset [here](http://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/LiDAR_MOS_toy_dataset.zip) and decompress it in the `data\` folder following the data structure [data/README.md](data/README.md).
 
 ### Prepare training data
-To use our method, one needs to generate the residual images by using the command line below in `utils` folder:
+To use our method, one needs to generate the residual images. Here is a quick demo:
 ```sh
   $ python3 utils/gen_residual_images.py
 ```
 More setup about the data preparation can be found in the yaml file [config/data_preparing.yaml](config/data_preparing.yaml).
+To prepare the training data for the whole KITTI-Odometry dataset, please download the [original website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). 
 
 ### Using SalsaNext as the baseline
 To use SalsaNext as the baseline segmentation network for LiDAR-MOS, one should first follow the [mos_SalsaNext/README.md](mos_SalsaNext/README.md) to set up SalsaNext.
