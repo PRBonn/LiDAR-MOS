@@ -59,7 +59,7 @@ More setup about the data preparation can be found in the yaml file [config/data
 To prepare the training data for the whole KITTI-Odometry dataset, please download the [original website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). 
 
 ### Using SalsaNext as the baseline
-To use SalsaNext as the baseline segmentation network for LiDAR-MOS, one should first follow the [mos_SalsaNext/README.md](mos_SalsaNext/README.md) to set up SalsaNext.
+To use SalsaNext as the baseline segmentation network for LiDAR-MOS, one should follow the [mos_SalsaNext/README.md](mos_SalsaNext/README.md) to it up.
 
 #### Inferring
 To generate the LiDAR-MOS predictions with pretrained model. Quick test on toy dataset, directly run
@@ -83,7 +83,7 @@ Change the corresponding paths and run:
 ```
 
 ### Using RangeNet++ as the baseline 
-To use RangeNet++ as the baseline segmentation network for LiDAR-MOS, one should first follow the [mos_RangeNet/README.md](mos_RangeNet/README.md) to set up RangeNet++.
+To use RangeNet++ as the baseline segmentation network for LiDAR-MOS, one should follow the [mos_RangeNet/README.md](mos_RangeNet/README.md) to set it up.
 
 #### Inferring
 Inferring the whole dataset, please download the KITTI-Odometry dataset from the [original website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php), the [pretrained model](todo: add pretrained model for rangenet) and change the corresponding paths.
@@ -117,7 +117,7 @@ Since we ignore the unlabelled and invalid status, therefore in MOD there are on
 
 To evaluate the MOS results on the toy dataset just run:
 ```sh
-  $ python3 utils/evaluate_mos.py -d data -p data/predictions_salsanext_residual_1 -s valid
+  $ python3 utils/evaluate_mos.py -d data -p data/predictions_salsanext_residual_1_valid -s valid
 ```
 
 To evaluate the MOS results on our **LiDAR-MOS benchmark** please have a look at our [semantic-kitti-api](https://github.com/PRBonn/semantic-kitti-api) and benchmark [website](http://bit.ly/mos-benchmark).
