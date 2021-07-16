@@ -24,7 +24,7 @@ Complete demo video can be found in YouTube [here](https://youtu.be/NHvsYhk4dhw)
 
 
 ## Publication
-If you use our code and benchmark in your academic work, please cite the corresponding [paper](http://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf):  
+If you use our code and benchmark in your academic work, please cite the corresponding [paper](http://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf):
     
 	@article{chen2021ral,
         title={{Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data}},
@@ -45,6 +45,8 @@ We didn't change the original pipeline of the segmentation networks, but only ch
 Therefore, our method can be used with any range-image-based LiDAR segmentation networks.
 
 Our method is based on range images. To use range projection with fast c++ library, please find the usage doc [here](https://github.com/PRBonn/overlap_localization/tree/master/src/prepare_training).
+
+<img src="data/pics/pipeline.png" width="400">
 
 
 ## How to use
