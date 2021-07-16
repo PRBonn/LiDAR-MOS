@@ -11,8 +11,7 @@ Additionally, we created a new benchmark for LiDAR-based moving object segmentat
 
 Complete demo video can be found in YouTube [here](https://youtu.be/NHvsYhk4dhw). LiDAR-MOS in action:
 
-<img src="data/pics/urban.gif" width="350">
-<img src="data/pics/highway.gif" width="350">
+<img src="data/pics/urban.gif" width="350"><img src="data/pics/highway.gif" width="350">
 
 ### Table of Contents
 1. [Introduction of the repo and benchmark](#LiDAR-MOS:-Moving-Object-Segmentation-in-3D-LiDAR-Data)
