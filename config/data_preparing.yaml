@@ -1,0 +1,38 @@
+# This file is covered by the LICENSE file in the root of this project.
+# Developed by: Xieyuanli Chen
+# Configuration for preparing residual images (specifying all the paths)
+# --------------------------------------------------------------------
+
+# General parameters
+# number of frames for training, -1 uses all frames
+num_frames: -1
+# plot images
+debug: False
+# normalize/scale the difference with corresponding range value
+normalize: True
+# use the last n frame to calculate the difference image
+num_last_n: 1
+
+# Inputs
+# the folder of raw LiDAR scans
+scan_folder: 'data/sequences/08/velodyne'
+# ground truth poses file
+pose_file: 'data/sequences/08/poses.txt'
+# calibration file
+calib_file: 'data/sequences/08/calib.txt'
+
+# Outputs
+# the suffix should be the same as num_last_n!
+residual_image_folder: 'data/sequences/08/residual_images_1'
+visualize: True
+visualization_folder: 'data/sequences/08/visualization_1'
+
+# range image parameters
+range_image:
+  height: 64
+  width: 2048
+  fov_up: 3.0
+  fov_down: -25.0
+  max_range: 50.0
+  min_range: 2.0
+
