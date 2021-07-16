@@ -7,11 +7,11 @@ It runs faster than the frame rate of the sensor and can be used to improve 3D L
 
 Additionally, we created a new benchmark for LiDAR-based moving object segmentation based on SemanticKITTI [here](http://bit.ly/mos-benchmark).
 
-<img src="data/pics/mos_benchmark.png" width="700">
+<img src="data/pics/mos_benchmark.png" width="800">
 
 Complete demo video can be found in YouTube [here](https://youtu.be/NHvsYhk4dhw). LiDAR-MOS in action:
 
-<img src="data/pics/urban.gif" width="350"><img src="data/pics/highway.gif" width="350">
+<img src="data/pics/urban.gif" width="400"> <img src="data/pics/highway.gif" width="400">
 
 ### Table of Contents
 1. [Introduction of the repo and benchmark](#LiDAR-MOS:-Moving-Object-Segmentation-in-3D-LiDAR-Data)
@@ -164,7 +164,7 @@ To clean the LiDAR scans with our LiDAR-MOS as masks, we also provide a quick de
 Using the cleaned LiDAR scans, we see that by simply applying our MOS predictions as a preprocessing mask, the odometry results are improved in both
 the KITTI training and test data and even slightly better than the carefully-designed full classes semantic-enhanced SuMa++.
 
-<img src="data/pics/odometry_results.png" width="350">
+<img src="data/pics/odometry_results.png" width="400">
 
 The testing results of our methods can also be found in [KITTI-Odometry benchmark](http://www.cvlibs.net/datasets/kitti/eval_odometry.php).
 
@@ -174,8 +174,7 @@ scans, (right) with the cleaned LiDAR scans by applying our MOS predictions as m
 As can be seen, there are moving objects present that pollute the map, which might have adversarial effects, when used for localization or path
 planning. By using our MOS predictions as masks, we can effectively remove these artifacts and get a clean map. 
 
-<img src="data/pics/map_raw.png" width="350">
-<img src="data/pics/map_clean.png" width="350">
+<img src="data/pics/map_raw.png" width="400"> <img src="data/pics/map_clean.png" width="400">
 
 
 ## Collection of downloads
