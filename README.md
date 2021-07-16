@@ -46,7 +46,7 @@ Therefore, our method can be used with any range-image-based LiDAR segmentation 
 
 Our method is based on range images. To use range projection with fast c++ library, please find the usage doc [here](https://github.com/PRBonn/overlap_localization/tree/master/src/prepare_training).
 
-<img src="data/pics/pipeline.png" width="800">
+<img src="data/pics/pipeline.png" width="600">
 
 
 ## How to use
