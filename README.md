@@ -61,7 +61,7 @@ More setup about the data preparation can be found in the yaml file [config/data
 To prepare the training data for the whole KITTI-Odometry dataset, please download the [original website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). 
 
 ### Using SalsaNext as the baseline
-To use SalsaNext as the baseline segmentation network for LiDAR-MOS, one should follow the [mos_SalsaNext/README.md](mos_SalsaNext/README.md) to it up.
+To use SalsaNext as the baseline segmentation network for LiDAR-MOS, one should follow the [mos_SalsaNext/README.md](mos_SalsaNext/README.md) to set it up.
 
 #### Inferring
 To generate the LiDAR-MOS predictions with pretrained model. Quick test on toy dataset, directly run
@@ -72,7 +72,7 @@ To generate the LiDAR-MOS predictions with pretrained model. Quick test on toy d
 
 Inferring the whole dataset, please download the KITTI-Odometry dataset from the [original website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php), and change the corresponding paths.
 ```sh
-  $ cd mos_SalsaNext/train/tasks/semantic
+  $ cd mos_SalsaNext
   $ python3 infer.py -d path/to/kitti/dataset -m path/to/pretrained_model -l path/to/log -s train/valid/test # depending of desired split to evaluate
 ```
 
