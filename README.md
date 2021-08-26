@@ -1,11 +1,11 @@
 # LiDAR-MOS: Moving Object Segmentation in 3D LiDAR Data
 This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:
-A Learning-based Approach Exploiting Sequential Data [PDF](http://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf).
+A Learning-based Approach Exploiting Sequential Data [PDF](https://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf).
 
 Our approach accurately segments the scene into moving and static objects, i.e., distinguishing between moving cars vs. parked cars.
 It runs faster than the frame rate of the sensor and can be used to improve 3D LiDAR-based odometry/SLAM and mapping results as shown [below](#Applications).
 
-Additionally, we created a new benchmark for LiDAR-based moving object segmentation based on SemanticKITTI [here](http://bit.ly/mos-benchmark).
+Additionally, we created a new benchmark for LiDAR-based moving object segmentation based on SemanticKITTI [here](https://bit.ly/mos-benchmark).
 
 <img src="data/pics/mos_benchmark.png" width="800">
 
@@ -24,7 +24,7 @@ Complete demo video can be found in YouTube [here](https://youtu.be/NHvsYhk4dhw)
 
 
 ## Publication
-If you use our code and benchmark in your academic work, please cite the corresponding [paper](http://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf):
+If you use our code and benchmark in your academic work, please cite the corresponding [paper](https://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf):
     
 	@article{chen2021ral,
         title={{Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data}},
@@ -50,7 +50,7 @@ Our method is based on range images. To use range projection with fast c++ libra
 
 
 ## How to use
-For a quick test of all the steps below, one could download a toy dataset [here](http://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/LiDAR_MOS_toy_dataset.zip) and decompress it in the `data\` folder following the data structure [data/README.md](data/README.md).
+For a quick test of all the steps below, one could download a toy dataset [here](https://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/LiDAR_MOS_toy_dataset.zip) and decompress it in the `data\` folder following the data structure [data/README.md](data/README.md).
 
 ### Prepare training data
 To use our method, one needs to generate the residual images. Here is a quick demo:
@@ -58,7 +58,7 @@ To use our method, one needs to generate the residual images. Here is a quick de
   $ python3 utils/gen_residual_images.py
 ```
 More setup about the data preparation can be found in the yaml file [config/data_preparing.yaml](config/data_preparing.yaml).
-To prepare the training data for the whole KITTI-Odometry dataset, please download the [original website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). 
+To prepare the training data for the whole KITTI-Odometry dataset, please download the [original website](https://www.cvlibs.net/datasets/kitti/eval_odometry.php). 
 
 ### Using SalsaNext as the baseline
 To use SalsaNext as the baseline segmentation network for LiDAR-MOS, one should follow the [mos_SalsaNext/README.md](mos_SalsaNext/README.md) to set it up.
@@ -70,14 +70,14 @@ To generate the LiDAR-MOS predictions with pretrained model. Quick test on toy d
   $ python3 infer.py -d ../../../../data -m ../../../../data/model_salsanext_residual_1 -l ../../../../data/predictions_salsanext_residual_1_new -s valid
 ```
 
-Inferring the whole dataset, please download the KITTI-Odometry dataset from the [original website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php), and change the corresponding paths.
+Inferring the whole dataset, please download the KITTI-Odometry dataset from the [original website](https://www.cvlibs.net/datasets/kitti/eval_odometry.php), and change the corresponding paths.
 ```sh
   $ cd mos_SalsaNext
   $ python3 infer.py -d path/to/kitti/dataset -m path/to/pretrained_model -l path/to/log -s train/valid/test # depending of desired split to evaluate
 ```
 
 #### Training
-To train a LiDAR-MOS network with SalsaNext from scratch, one has to download the [KITTI-Odometry dataset](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) and [Semantic-Kitti dataset](http://semantic-kitti.org/):
+To train a LiDAR-MOS network with SalsaNext from scratch, one has to download the [KITTI-Odometry dataset](https://www.cvlibs.net/datasets/kitti/eval_odometry.php) and [Semantic-Kitti dataset](http://semantic-kitti.org/):
 Change the corresponding paths and run:
 ```sh
   $ cd mos_SalsaNext/train/tasks/semantic
@@ -88,14 +88,14 @@ Change the corresponding paths and run:
 To use RangeNet++ as the baseline segmentation network for LiDAR-MOS, one should follow the [mos_RangeNet/README.md](mos_RangeNet/README.md) to set it up.
 
 #### Inferring
-Inferring the whole dataset, please download the KITTI-Odometry dataset from the [original website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php), the [pretrained model](todo: add pretrained model for rangenet) and change the corresponding paths.
+Inferring the whole dataset, please download the KITTI-Odometry dataset from the [original website](https://www.cvlibs.net/datasets/kitti/eval_odometry.php), the [pretrained model](todo: add pretrained model for rangenet) and change the corresponding paths.
 ```sh
   $ cd mos_RangeNet/tasks/semantic
   $ python3 infer.py -d path/to/kitti/dataset -m path/to/pretrained_model -l path/to/log -s train/valid/test # depending of desired split to evaluate
 ```
 
 #### Training
-To train a LiDAR-MOS network with RangeNet++ from scratch, one has to download the [KITTI-Odometry dataset](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) and [Semantic-Kitti dataset](http://semantic-kitti.org/) and
+To train a LiDAR-MOS network with RangeNet++ from scratch, one has to download the [KITTI-Odometry dataset](https://www.cvlibs.net/datasets/kitti/eval_odometry.php) and [Semantic-Kitti dataset](http://semantic-kitti.org/) and
 change the corresponding paths and run:
 ```sh
   $ cd mos_RangeNet/tasks/semantic
@@ -122,7 +122,7 @@ To evaluate the MOS results on the toy dataset just run:
   $ python3 utils/evaluate_mos.py -d data -p data/predictions_salsanext_residual_1_valid -s valid
 ```
 
-To evaluate the MOS results on our **LiDAR-MOS benchmark** please have a look at our [semantic-kitti-api](https://github.com/PRBonn/semantic-kitti-api) and benchmark [website](http://bit.ly/mos-benchmark).
+To evaluate the MOS results on our **LiDAR-MOS benchmark** please have a look at our [semantic-kitti-api](https://github.com/PRBonn/semantic-kitti-api) and benchmark [website](https://bit.ly/mos-benchmark).
 
 #### How to visualize the predictions
 To visualize the MOS results on the toy dataset just run:
@@ -169,7 +169,7 @@ the KITTI training and test data and even slightly better than the carefully-des
 
 <img src="data/pics/odometry_results.png" width="400">
 
-The testing results of our methods can also be found in [KITTI-Odometry benchmark](http://www.cvlibs.net/datasets/kitti/eval_odometry.php).
+The testing results of our methods can also be found in [KITTI-Odometry benchmark](https://www.cvlibs.net/datasets/kitti/eval_odometry.php).
 
 ### Mapping
 we compare the aggregated point cloud maps (left) directly with the raw LiDAR
