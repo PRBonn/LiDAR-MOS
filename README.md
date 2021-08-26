@@ -181,12 +181,12 @@ planning. By using our MOS predictions as masks, we can effectively remove these
 
 
 ## Collection of downloads
- - [LiDAR_MOS_toy_dataset](http://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/LiDAR_MOS_toy_dataset.zip)                           (toy dataset used for the quick demos)
- - [predictions_salsanext_semantic](http://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/predictions_salsanext_semantic.zip)        (semantic segmentation results from SalsaNext for all sequences 00 - 21) 
- - [predictions_salsanext_residual_8_sem](http://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/predictions_salsanext_residual_8_sem.zip)  (**Our best!** LiDAR-MOS results using SalsaNext with 8 residual images + semantics) 
- - [model_rangenet_residual_1](http://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/model_rangenet_residual_1.zip)             (pretrained model using RangeNet++ with 1 residual image) 
- - [model_salsanext_residual_1](http://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/model_salsanext_residual_1.zip)            (pretrained model using SalsaNext with 1 residual image)
- - [model_salsanext_residual_8](http://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/model_salsanext_residual_8.zip)            (pretrained model using SalsaNext with 8 residual image)
+ - [LiDAR_MOS_toy_dataset](https://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/LiDAR_MOS_toy_dataset.zip)                           (toy dataset used for the quick demos)
+ - [predictions_salsanext_semantic](https://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/predictions_salsanext_semantic.zip)        (semantic segmentation results from SalsaNext for all sequences 00 - 21) 
+ - [predictions_salsanext_residual_8_sem](https://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/predictions_salsanext_residual_8_sem.zip)  (**Our best!** LiDAR-MOS results using SalsaNext with 8 residual images + semantics) 
+ - [model_rangenet_residual_1](https://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/model_rangenet_residual_1.zip)             (pretrained model using RangeNet++ with 1 residual image) 
+ - [model_salsanext_residual_1](https://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/model_salsanext_residual_1.zip)            (pretrained model using SalsaNext with 1 residual image)
+ - [model_salsanext_residual_8](https://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/model_salsanext_residual_8.zip)            (pretrained model using SalsaNext with 8 residual image)
  
 
 ## License
