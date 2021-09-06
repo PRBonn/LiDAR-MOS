@@ -16,11 +16,12 @@ Complete demo video can be found in YouTube [here](https://youtu.be/NHvsYhk4dhw)
 ### Table of Contents
 1. [Introduction of the repo and benchmark](#LiDAR-MOS:-Moving-Object-Segmentation-in-3D-LiDAR-Data)
 2. [Publication](#Publication)
-3. [Dependencies](#Dependencies)
-4. [How to use](#How-to-use)
-5. [Applications](#Applications)
-6. [Collection of downloads](#Collection-of-downloads)
-7. [License](#License)
+3. [Log](#Log)
+4. [Dependencies](#Dependencies)
+5. [How to use](#How-to-use)
+6. [Applications](#Applications)
+7. [Collection of downloads](#Collection-of-downloads)
+8. [License](#License)
 
 
 ## Publication
@@ -34,6 +35,15 @@ If you use our code and benchmark in your academic work, please cite the corresp
         doi = {10.1109/LRA.2021.3093567},
         issn = {2377-3766},
     }
+
+
+## Log
+
+### v1.1
+Thanks **Jiadai Sun** for testing and correcting some bug of SalsaNext-MOS
+
+### v1.0
+Open-source version
 
 
 ## Dependencies
