@@ -4,13 +4,13 @@
 train:
   loss: "xentropy"       # must be either xentropy or iou
   max_epochs: 150
-  lr: 0.01              # sgd learning rate
+  lr: 0.01               # sgd learning rate
   wup_epochs: 1          # warmup during first XX epochs (can be float)
   momentum: 0.9          # sgd momentum
   lr_decay: 0.99         # learning rate decay per epoch after initial cycle (from min lr)
   w_decay: 0.0001        # weight decay
-  batch_size: 1              # batch size
-  report_batch: 10        # every x batches, report loss
+  batch_size: 1          # batch size
+  report_batch: 10       # every x batches, report loss
   report_epoch: 1        # every x epochs, report validation set
   epsilon_w: 0.001       # class weight w = 1 / (content + epsilon_w)
   save_summary: False    # Summary of weight histograms for tensorboard
@@ -18,7 +18,7 @@ train:
     # sample images (one per batch of the last calculated batch)
   # in log folder
   show_scans: False      # show scans during training
-  workers: 4            # number of threads to get data
+  workers: 4             # number of threads to get data
   
   # for mos
   residual: True # This needs to be the same as in the dataset params below!
@@ -71,5 +71,5 @@ dataset:
       
     # for mos
     n_input_scans: 1 # This needs to be the same as in the backbone params above!
-    residual: Ture # This needs to be the same as in the backbone params above!
+    residual: True   # This needs to be the same as in the backbone params above!
     transform: False # tranform the last n_input_scans - 1 frames before concatenation
