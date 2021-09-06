@@ -40,7 +40,7 @@ If you use our code and benchmark in your academic work, please cite the corresp
 ## Log
 
 ### v1.1
-Thanks **Jiadai Sun** for testing and correcting some bug of SalsaNext-MOS
+Thanks **Jiadai Sun** for testing and correcting some bugs of SalsaNext-MOS
 
 ### v1.0
 Open-source version
