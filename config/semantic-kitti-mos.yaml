@@ -29,7 +29,7 @@ labels:
   80: "pole"
   81: "traffic-sign"
   99: "other-object"
-  251: "moving"      # lidar-mos mod moving
+  251: "moving"      # lidar-mos moving
   252: "moving-car"
   253: "moving-bicyclist"
   254: "moving-person"
@@ -66,7 +66,7 @@ color_map: # bgr
   80: [150, 240, 255]
   81: [0, 0, 255]
   99: [255, 255, 50]
-  251: [0, 0, 255]  # lidar-mos mod moving
+  251: [0, 0, 255]  # lidar-mos moving
   252: [245, 150, 100]
   256: [255, 0, 0]
   253: [200, 40, 255]
