@@ -74,7 +74,7 @@ To prepare the training data for the whole KITTI-Odometry dataset, please downlo
 To use SalsaNext as the baseline segmentation network for LiDAR-MOS, one should follow the [mos_SalsaNext/README.md](mos_SalsaNext/README.md) to set it up.
 
 #### Inferring
-To generate the LiDAR-MOS predictions with pretrained model. Quick test on toy dataset, directly run
+To generate the LiDAR-MOS predictions with pretrained model with one residual image ([dowmload](https://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/model_salsanext_residual_1.zip), please `unzip` before using). Quick test on toy dataset, directly run
 ```sh
   $ cd mos_SalsaNext/train/tasks/semantic
   $ python3 infer.py -d ../../../../data -m ../../../../data/model_salsanext_residual_1 -l ../../../../data/predictions_salsanext_residual_1_new -s valid
