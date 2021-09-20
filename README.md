@@ -98,7 +98,7 @@ Change the corresponding paths and run:
 To use RangeNet++ as the baseline segmentation network for LiDAR-MOS, one should follow the [mos_RangeNet/README.md](mos_RangeNet/README.md) to set it up.
 
 #### Inferring
-Inferring the whole dataset, please download the KITTI-Odometry dataset from the [original website](https://www.cvlibs.net/datasets/kitti/eval_odometry.php), the [pretrained model](todo: add pretrained model for rangenet) and change the corresponding paths.
+Inferring the whole dataset, please download the KITTI-Odometry dataset from the [original website](https://www.cvlibs.net/datasets/kitti/eval_odometry.php), the [pretrained model](https://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/model_rangenet_residual_1.zip) and change the corresponding paths.
 ```sh
   $ cd mos_RangeNet/tasks/semantic
   $ python3 infer.py -d path/to/kitti/dataset -m path/to/pretrained_model -l path/to/log -s train/valid/test # depending of desired split to evaluate
