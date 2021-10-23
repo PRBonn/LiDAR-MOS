@@ -187,11 +187,11 @@ scans, (right) with the cleaned LiDAR scans by applying our MOS predictions as m
 As can be seen, there are moving objects present that pollute the map, which might have adversarial effects, when used for localization or path
 planning. By using our MOS predictions as masks, we can effectively remove these artifacts and get a clean map. 
 
+<img src="data/pics/map_raw.png" width="400"> <img src="data/pics/map_clean.png" width="400">
+
 #### Map cleaning
 For offline map cleaning, **Giseop Kim** combined his [Removert](https://github.com/irapkaist/removert) and LiDAR-MOS, and got very good results.
-One could find more information here: https://github.com/PRBonn/LiDAR-MOS/issues/28
-
-<img src="data/pics/map_raw.png" width="400"> <img src="data/pics/map_clean.png" width="400">
+More information can be found in [#28](https://github.com/PRBonn/LiDAR-MOS/issues/28).
 
 
 ## Collection of downloads
