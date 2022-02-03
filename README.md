@@ -1,4 +1,4 @@
-# LiDAR-MOS: Moving Object Segmentation in 3D LiDAR Data
+# LMNet: Moving Object Segmentation in 3D LiDAR Data
 This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:
 A Learning-based Approach Exploiting Sequential Data [PDF](https://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf).
 
