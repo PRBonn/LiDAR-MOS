@@ -27,7 +27,7 @@ Complete demo video can be found in YouTube [here](https://youtu.be/NHvsYhk4dhw)
 ## Publication
 If you use our code and benchmark in your academic work, please cite the corresponding [paper](https://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf):
     
-    	@article{chen2021ral,
+    @article{chen2021ral,
 		title={{Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data}},
 		author={X. Chen and S. Li and B. Mersch and L. Wiesmann and J. Gall and J. Behley and C. Stachniss},
 		year={2021},
