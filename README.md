@@ -45,6 +45,7 @@ If you use our code and benchmark in your academic work, please cite the corresp
 
 ### v1.1
 Thanks **Jiadai Sun** for testing and correcting some bugs of SalsaNext-MOS
+More setups can also be found here: [#47](https://github.com/PRBonn/LiDAR-MOS/issues/47)
 
 ### v1.0
 Open-source version
