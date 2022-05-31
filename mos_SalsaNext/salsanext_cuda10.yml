@@ -36,7 +36,7 @@ dependencies:
   - pip=19.2.3=py37_0
   - pycparser=2.19=py37_0
   - python=3.7.4=h265db76_1
-  - pytorch=1.1.0=cuda100py37he554f03_0
+  - pytorch=1.5.1
   - readline=7.0=h7b6447c_5
   - scipy=1.3.1=py37h7c811a0_0
   - setuptools=41.2.0=py37_0
