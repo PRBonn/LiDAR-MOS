@@ -79,6 +79,8 @@ To prepare the training data for the whole KITTI-Odometry dataset, please downlo
 ### Using SalsaNext as the baseline
 To use SalsaNext as the baseline segmentation network for LiDAR-MOS, one should follow the [mos_SalsaNext/README.md](mos_SalsaNext/README.md) to set it up.
 
+Note that, we use pytorch v1.5.1+cu101 which is different from the original one. More information about the related issue is [here](https://github.com/PRBonn/LiDAR-MOS/issues/24).
+
 #### Inferring
 To generate the LiDAR-MOS predictions with pretrained model with one residual image ([download](https://www.ipb.uni-bonn.de/html/projects/LiDAR-MOS/model_salsanext_residual_1.zip), please `unzip` before using). Quick test on toy dataset, directly run
 ```sh
