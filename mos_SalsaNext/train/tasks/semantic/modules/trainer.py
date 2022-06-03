@@ -381,7 +381,7 @@ class Trainer():
                 output = output_mean
             else:
                 output = model(in_vol)
-                loss_m = criterion(torch.log(output.clamp(min=1e-8)), proj_labels) + self.ls(output, proj_labels.long())
+                loss_m = criterion(torch.log(output.clamp(min=1e-8)), proj_labels.long()) + self.ls(output, proj_labels.long())
 
             optimizer.zero_grad()
             if self.n_gpus > 1:
