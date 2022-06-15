@@ -43,6 +43,10 @@ If you use our code and benchmark in your academic work, please cite the corresp
 
 ## Log
 
+### News 20220615
+Our 4DMOS is open-source [here](https://github.com/PRBonn/4DMOS), which is about using sparse CNN on 4D point clouds for LiDAR moving object segmentation.
+
+
 ### v1.1
 Thanks **Jiadai Sun** for testing and correcting some bugs of SalsaNext-MOS.
 
