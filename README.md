@@ -46,7 +46,7 @@ If you use our code and benchmark in your academic work, please cite the corresp
 ### News 20220706
 Our MotionSeg3D is open-source [here](https://github.com/haomo-ai/MotionSeg3D).
 
-It uses a dual-branch and -head structure to fuse Spatial-Temporal information for LiDAR moving object segmentation.
+It uses a dual-branch and dual-head structure to fuse Spatial-Temporal information for LiDAR moving object segmentation.
 
 
 ### News 20220615
