@@ -43,10 +43,10 @@ If you use our code and benchmark in your academic work, please cite the corresp
 
 ## Log
 
-### News 20220713
+### News 20220706
 Our MotionSeg3D is open-source [here](https://github.com/haomo-ai/MotionSeg3D).
 
-It uses a transformer network to fuse Spatial-Temporal information for LiDAR-based moving object segmentation.
+It uses a dual-branch and dual-head structure to fuse Spatial-Temporal information for LiDAR moving object segmentation.
 
 
 ### News 20220615
