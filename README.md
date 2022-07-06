@@ -43,6 +43,12 @@ If you use our code and benchmark in your academic work, please cite the corresp
 
 ## Log
 
+### News 20220713
+Our MotionSeg3D is open-source [here](https://github.com/haomo-ai/MotionSeg3D).
+
+It uses a transformer network to fuse Spatial-Temporal information for LiDAR-based moving object segmentation.
+
+
 ### News 20220615
 Our 4DMOS is open-source [here](https://github.com/PRBonn/4DMOS).
 
