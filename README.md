@@ -2,8 +2,8 @@
 This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:
 A Learning-based Approach Exploiting Sequential Data [PDF](https://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf).
 
-Our approach accurately segments the scene into moving and static objects, i.e., distinguishing between moving cars vs. parked cars.
-It runs faster than the frame rate of the sensor and can be used to improve 3D LiDAR-based odometry/SLAM and mapping results as shown [below](#Applications).
+Our approach accurately segments the scene into moving and static objects, i.e., distinguishing between moving cars vs. parked cars. This task is also called 3D motion detection or segmentation.
+Our method runs faster than the frame rate of the sensor and can be used to improve 3D LiDAR-based odometry/SLAM and mapping results as shown [below](#Applications).
 
 Additionally, we created a new benchmark for LiDAR-based moving object segmentation based on SemanticKITTI [here](https://bit.ly/mos-benchmark).
 
