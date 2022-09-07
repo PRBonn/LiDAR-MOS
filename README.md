@@ -5,7 +5,7 @@ A Learning-based Approach Exploiting Sequential Data [PDF](https://www.ipb.uni-b
 Our approach accurately segments the scene into moving and static objects, i.e., distinguishing between moving cars vs. parked cars. This task is also called 3D motion detection or segmentation.
 Our method runs faster than the frame rate of the sensor and can be used to improve 3D LiDAR-based odometry/SLAM and mapping results as shown [below](#Applications).
 
-Additionally, we created a new benchmark for LiDAR-based moving object segmentation based on SemanticKITTI [here](https://bit.ly/mos-benchmark).
+Additionally, we created a new benchmark for LiDAR-based moving object segmentation based on SemanticKITTI [here](https://codalab.lisn.upsaclay.fr/competitions/7088).
 
 <img src="data/pics/mos_benchmark.png" width="800">
 
@@ -42,6 +42,10 @@ If you use our code and benchmark in your academic work, please cite the corresp
 
 
 ## Log
+### News 20220907
+The old codalab server stoped the service.
+Please use the new link here[https://codalab.lisn.upsaclay.fr/competitions/7088] to submit your results to the benchmark.
+You could still find the old results [here](https://competitions.codalab.org/competitions/28894).
 
 ### News 20220706
 Our MotionSeg3D is open-source [here](https://github.com/haomo-ai/MotionSeg3D).
