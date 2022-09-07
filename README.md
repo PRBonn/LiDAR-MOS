@@ -43,8 +43,9 @@ If you use our code and benchmark in your academic work, please cite the corresp
 
 ## Log
 ### News 20220907
-The old codalab server stoped the service.
-Please use the new link here[https://codalab.lisn.upsaclay.fr/competitions/7088] to submit your results to the benchmark.
+The old codalab server stopped the service.
+
+Please use the new link [here](https://codalab.lisn.upsaclay.fr/competitions/7088) to submit your results to the benchmark.
 You could still find the old results [here](https://competitions.codalab.org/competitions/28894).
 
 ### News 20220706
