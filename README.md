@@ -107,7 +107,7 @@ To generate the LiDAR-MOS predictions with pretrained model with one residual im
 
 Inferring the whole dataset, please download the KITTI-Odometry dataset from the [original website](https://www.cvlibs.net/datasets/kitti/eval_odometry.php), and change the corresponding paths.
 ```sh
-  $ cd mos_SalsaNext
+  $ cd mos_SalsaNext/train/tasks/semantic
   $ python3 infer.py -d path/to/kitti/dataset -m path/to/pretrained_model -l path/to/log -s train/valid/test # depending of desired split to evaluate
 ```
 
