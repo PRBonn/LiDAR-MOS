@@ -127,7 +127,7 @@ if __name__ == '__main__':
   if FLAGS.backend == "torch":
     from auxiliary.torch_ioueval import iouEval
     evaluator = iouEval(nr_classes, ignore)
-  if FLAGS.backend == "numpy":
+  elif FLAGS.backend == "numpy":
     from auxiliary.np_ioueval import iouEval
     evaluator = iouEval(nr_classes, ignore)
   else:
